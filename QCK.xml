@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="E">
   <design>
-    <source>D:\File Andrian\Keeb\QCK\QCK.kicad_sch</source>
-    <date>23/02/2023 23:50:18</date>
+    <source>D:\File Andrian\Keeb\QCK75-XT\QCK.kicad_sch</source>
+    <date>20/03/2023 19:50:19</date>
     <tool>Eeschema (6.0.11)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -1854,7 +1854,7 @@
     </comp>
     <comp ref="SW2">
       <value>SW_Push</value>
-      <footprint>Button_Switch_SMD:SW_Push_1P1T_NO_CK_PTS125Sx43PSMTR</footprint>
+      <footprint>Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm</footprint>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="QCK.kicad_sch"/>
@@ -1863,7 +1863,7 @@
     </comp>
     <comp ref="SW3">
       <value>SW_Push</value>
-      <footprint>Button_Switch_SMD:SW_Push_1P1T_NO_CK_PTS125Sx43PSMTR</footprint>
+      <footprint>Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm</footprint>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="QCK.kicad_sch"/>
@@ -2200,7 +2200,7 @@
       <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Switch.kicad_sym</uri>
     </library>
     <library logical="marbastlib-mx">
-      <uri>D:\File Andrian\Keeb\QCK/LIBS/marbastlib-main/marbastlib-mx.kicad_sym</uri>
+      <uri>D:\File Andrian\Keeb\QCK75-XT/LIBS/marbastlib-main/marbastlib-mx.kicad_sym</uri>
     </library>
   </libraries>
   <nets>
@@ -2240,12 +2240,12 @@
     <net code="4" name="D_N">
       <node ref="J2" pin="A7" pinfunction="D-" pintype="bidirectional"/>
       <node ref="J2" pin="B7" pinfunction="D-" pintype="bidirectional"/>
-      <node ref="U2" pin="43" pinfunction="PA10" pintype="bidirectional"/>
+      <node ref="U2" pin="44" pinfunction="PA11" pintype="bidirectional"/>
     </net>
     <net code="5" name="D_P">
       <node ref="J2" pin="A6" pinfunction="D+" pintype="bidirectional"/>
       <node ref="J2" pin="B6" pinfunction="D+" pintype="bidirectional"/>
-      <node ref="U2" pin="44" pinfunction="PA11" pintype="bidirectional"/>
+      <node ref="U2" pin="45" pinfunction="PA12" pintype="bidirectional"/>
     </net>
     <net code="6" name="ENC_A">
       <node ref="SW1" pin="A" pinfunction="A" pintype="passive"/>
@@ -2289,11 +2289,11 @@
       <node ref="U3" pin="2" pinfunction="GND" pintype="input"/>
     </net>
     <net code="10" name="I2C_CLK">
-      <node ref="U2" pin="58" pinfunction="PB6" pintype="bidirectional"/>
+      <node ref="U2" pin="61" pinfunction="PB8" pintype="bidirectional"/>
       <node ref="U3" pin="3" pinfunction="SCK" pintype="input"/>
     </net>
     <net code="11" name="I2C_DAT">
-      <node ref="U2" pin="59" pinfunction="PB7" pintype="bidirectional"/>
+      <node ref="U2" pin="62" pinfunction="PB9" pintype="bidirectional"/>
       <node ref="U3" pin="4" pinfunction="SDA" pintype="input"/>
     </net>
     <net code="12" name="Net-(D1-Pad2)">
@@ -2672,9 +2672,9 @@
       <node ref="J2" pin="B5" pinfunction="CC2" pintype="bidirectional"/>
       <node ref="R4" pin="2" pintype="passive"/>
     </net>
-    <net code="106" name="PA9">
+    <net code="106" name="PB6">
       <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
-      <node ref="U2" pin="57" pinfunction="PB5" pintype="bidirectional"/>
+      <node ref="U2" pin="58" pinfunction="PB6" pintype="bidirectional"/>
     </net>
     <net code="107" name="RESET">
       <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
@@ -2684,11 +2684,11 @@
     </net>
     <net code="108" name="SWCLK">
       <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
-      <node ref="U2" pin="61" pinfunction="PB8" pintype="bidirectional"/>
+      <node ref="U2" pin="49" pinfunction="PA14" pintype="bidirectional"/>
     </net>
     <net code="109" name="SWDIO">
       <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
-      <node ref="U2" pin="62" pinfunction="PB9" pintype="bidirectional"/>
+      <node ref="U2" pin="46" pinfunction="PA13" pintype="bidirectional"/>
     </net>
     <net code="110" name="col0">
       <node ref="SW(2,0)1" pin="2" pinfunction="2" pintype="passive"/>
@@ -2944,7 +2944,7 @@
       <node ref="D90" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="D91" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="D92" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="U2" pin="49" pinfunction="PA14" pintype="bidirectional"/>
+      <node ref="U2" pin="50" pinfunction="PA15" pintype="bidirectional"/>
     </net>
     <net code="134" name="unconnected-(J2-PadA8)">
       <node ref="J2" pin="A8" pinfunction="SBU1" pintype="bidirectional+no_connect"/>
@@ -2976,32 +2976,32 @@
     <net code="143" name="unconnected-(U2-Pad21)">
       <node ref="U2" pin="21" pinfunction="PA5" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="144" name="unconnected-(U2-Pad45)">
-      <node ref="U2" pin="45" pinfunction="PA12" pintype="bidirectional+no_connect"/>
+    <net code="144" name="unconnected-(U2-Pad43)">
+      <node ref="U2" pin="43" pinfunction="PA10" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="145" name="unconnected-(U2-Pad46)">
-      <node ref="U2" pin="46" pinfunction="PA13" pintype="bidirectional+no_connect"/>
-    </net>
-    <net code="146" name="unconnected-(U2-Pad50)">
-      <node ref="U2" pin="50" pinfunction="PA15" pintype="bidirectional+no_connect"/>
-    </net>
-    <net code="147" name="unconnected-(U2-Pad51)">
+    <net code="145" name="unconnected-(U2-Pad51)">
       <node ref="U2" pin="51" pinfunction="PC10" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="148" name="unconnected-(U2-Pad52)">
+    <net code="146" name="unconnected-(U2-Pad52)">
       <node ref="U2" pin="52" pinfunction="PC11" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="149" name="unconnected-(U2-Pad53)">
+    <net code="147" name="unconnected-(U2-Pad53)">
       <node ref="U2" pin="53" pinfunction="PC12" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="150" name="unconnected-(U2-Pad54)">
+    <net code="148" name="unconnected-(U2-Pad54)">
       <node ref="U2" pin="54" pinfunction="PD2" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="151" name="unconnected-(U2-Pad55)">
+    <net code="149" name="unconnected-(U2-Pad55)">
       <node ref="U2" pin="55" pinfunction="PB3" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="152" name="unconnected-(U2-Pad56)">
+    <net code="150" name="unconnected-(U2-Pad56)">
       <node ref="U2" pin="56" pinfunction="PB4" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="151" name="unconnected-(U2-Pad57)">
+      <node ref="U2" pin="57" pinfunction="PB5" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="152" name="unconnected-(U2-Pad59)">
+      <node ref="U2" pin="59" pinfunction="PB7" pintype="bidirectional+no_connect"/>
     </net>
   </nets>
 </export>
