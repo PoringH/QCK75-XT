@@ -1,32 +1,20 @@
-//#ifndef CONFIG_H
-//#define CONFIG_H
-//
-//#include "config_common.h"
-
 #pragma once
-#define VENDOR_ID 0x1209
-#define PRODUCT_ID 0xBA01
-#define DEVICE_VER 0x0001
-#define MANUFACTURER KoBuss
-#define PRODUCT Grabert
-#define DESCRIPTION Grabert Sixty
-
 /* key matrix size */
 #define MATRIX_ROWS 6
 #define MATRIX_COLS 18
 
 /* key matrix pins */
-#define MATRIX_ROW_PINS { PC3, PA0, PA1, PA2, PB10, PA15 }
-#define MATRIX_COL_PINS { PA6, PA7, PC4, PC5, PB0, PB1, PB2, PB11, PA9, PA8, PC9, PC8, PC7, PC6, PB15, PB14, PB13, PB12 }
+#define MATRIX_ROW_PINS { C3, A0, A1, A2, B10, A15 }
+#define MATRIX_COL_PINS { A6, A7, C4, C5, B0, B1, B2, B11, A9, A8, C9, C8, C7, C6, B15, B14, B13, B12 }
 
 /* COL2ROW or ROW2COL */
 #define DIODE_DIRECTION COL2ROW
 
-/* number of backlight levels */
-
-#ifdef BACKLIGHT_PIN
-#define BACKLIGHT_LEVELS 3
-#endif
+///* number of backlight levels */
+//
+//#ifdef BACKLIGHT_PIN
+//#define BACKLIGHT_LEVELS 3
+//#endif
 
 /* Set 0 if debouncing isn't needed */
 #define DEBOUNCE 5
