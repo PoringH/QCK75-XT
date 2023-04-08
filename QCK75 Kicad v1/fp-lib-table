@@ -1,0 +1,6 @@
+(fp_lib_table
+  (lib (name "keyboard_parts")(type "KiCad")(uri "${KIPRJMOD}/LIBS/keyboard_parts.pretty-master")(options "")(descr ""))
+  (lib (name "oled stuff")(type "KiCad")(uri "${KIPRJMOD}/LIBS/oled stuff.pretty")(options "")(descr ""))
+  (lib (name "marbastlib-mx")(type "KiCad")(uri "${KIPRJMOD}/LIBS/marbastlib-main/marbastlib-mx.pretty")(options "")(descr ""))
+  (lib (name "KiCad-SSD1306_OLED-0")(type "KiCad")(uri "${KIPRJMOD}/LIBS/KiCad-SSD1306_OLED-0.91-128x32-master")(options "")(descr ""))
+)

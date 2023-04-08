@@ -1,4 +1,0 @@
-(sym_lib_table
-  (lib (name "marbastlib-mx")(type "KiCad")(uri "${KIPRJMOD}/LIBS/marbastlib-main/marbastlib-mx.kicad_sym")(options "")(descr ""))
-  (lib (name "SSD1306_OLED-0.91-128x32")(type "Legacy")(uri "${KIPRJMOD}/LIBS/KiCad-SSD1306_OLED-0.91-128x32-master/SSD1306_OLED-0.91-128x32.lib")(options "")(descr ""))
-)
