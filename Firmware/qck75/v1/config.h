@@ -3,36 +3,22 @@
 
 #pragma once
 
-#ifdef OLED_DRIVER_ENABLE
-#    define I2C1_SCL_BANK GPIOB
-#    define I2C1_SDA_BANK GPIOB
-#    define I2C1_SDA 7
-#    define I2C1_SCL 6
-#    define I2C1_SCL_PAL_MODE 1
-#    define I2C1_SDA_PAL_MODE 1
-#    define I2C1_TIMINGR_PRESC 0U
-#    define I2C1_TIMINGR_SCLDEL 3U
-#    define I2C1_TIMINGR_SDADEL 1U
-#    define I2C1_TIMINGR_SCLH 3U
-#    define I2C1_TIMINGR_SCLL 9U
-#    define OLED_DISPLAY_WIDTH 128
-#    define OLED_DISPLAY_HEIGHT 64
-#    define OLED_UPDATE_INTERVAL 20
-#    define OLED_TIMEOUT 30000
-#endif
+#define I2C1_SCL_PIN B8
+#define I2C1_SDA_PIN B9
 
-/*
- * Feature disable options
- *  These options are also useful to firmware size reduction.
- */
+#define I2C1_SCL_PAL_MODE 1
+#define I2C1_SDA_PAL_MODE 1
 
-/* disable debug print */
-//#define NO_DEBUG
+#define OLED_DISPLAY_ADDRESS 0x3C
+#define OLED_DISPLAY_128X64
+#define OLED_COM_PINS 0x12
 
-/* disable print */
-//#define NO_PRINT
+#define OLED_IC OLED_IC_SH1106
+#define OLED_COLUMN_OFFSET 2
 
-/* disable action features */
-//#define NO_ACTION_LAYER
-//#define NO_ACTION_TAPPING
-//#define NO_ACTION_ONESHOT
+#define OLED_TIMEOUT 120000
+#define OLED_BRIGHNTESS 120
+
+#define VIA_EEPROM_CUSTOM_CONFIG_SIZE 21
+
+#define USB_POLLING_INTERVAL_MS 1
