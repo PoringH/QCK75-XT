@@ -1,20 +1,21 @@
 # qck75
 
-![qck75](imgur.com image replace me!)
+[qck75](https://i.imgur.com/exdD8Hgl.jpeg)
 
-*A short description of the keyboard/project*
+This keyboard is a keyboard made for self use
+75% layout with extra keys for macro with led and knob
 
 * Keyboard Maintainer: [Andrian](https://github.com/PoringH)
-* Hardware Supported: *The PCBs, controllers supported*
-* Hardware Availability: *Links to where you can find this hardware*
+* Hardware Supported: This project uses STM32F072R8Tx for the mcu on the pcb
+* Hardware Availability: https://github.com/PoringH/QCK75-XT
 
 Make example for this keyboard (after setting up your build environment):
 
-    make qck75:default
+    make qck75/v1:default
 
 Flashing example for this keyboard:
 
-    make qck75:default:flash
+    make qck75/v1:default:flash
 
 See the [build environment setup](https://docs.qmk.fm/#/getting_started_build_tools) and the [make instructions](https://docs.qmk.fm/#/getting_started_make_guide) for more information. Brand new to QMK? Start with our [Complete Newbs Guide](https://docs.qmk.fm/#/newbs).
 
